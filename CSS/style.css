@@ -1,0 +1,173 @@
+/* color */
+.color-x{
+	color: #666CA3;
+}
+.color-background-blue{
+	background-color: #13183F;
+}
+.color-blue{
+	color: #13183F;
+
+}
+.color-text-grey{
+	color: #83869A;
+}
+.color-white{
+	color: #FFFFFF;
+}
+.background-button-color1{
+	background-image: linear-gradient(#F02AA6, #FF6F48);
+	
+}
+.background-button-color2{
+	background-image: linear-gradient(#4851FF ,#F02AA6);
+  
+}
+.color-get-start{
+	color: #F74780;
+}
+/*text size, fonts and other thing*/
+/*title*/
+.title1{
+	font-size: 40px;
+	line-height: 50px;
+	font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.title2{
+	font-size: 20px;
+	line-height: 25px;
+	font-family: 'Plus Jakarta Sans', sans-serif;
+	font-weight: 800;
+}
+/*paraghraph*/
+.text{
+	font-size: 16px;
+	line-height: 26px;
+	font-family: 'Plus Jakarta Sans', sans-serif;
+	font-weight: 500;
+
+}
+/*get start*/
+.get-start{
+	font-size: 18px;
+	line-height: 26px;
+	font-family: 'Plus Jakarta Sans', sans-serif;
+	
+
+}
+.box-text-size{
+	font-size: 24px;
+	line-height:32px ;
+	font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+
+
+/*header*/
+.header{
+	display: flex;
+	max-width: 100%;
+
+}
+
+.header-button{
+	display: inline-block;
+	width: 135px;
+	height: 45px;
+	border: 0,1px;
+	border-radius: 28px;
+	text-align: center;
+	padding: 10px;
+	max-width: 100%;
+	margin-top: 11px;
+	
+}
+.skilled{
+	margin-left: 16px;
+	margin-right: 100px;
+	margin-top: 11px;
+}
+
+
+/*section*/
+.section-header1{
+	margin-top:45px ;
+	margin-left: 16px;
+	margin-right: 16px;
+	max-width: 100%;
+	}
+.section-text{
+	margin-top: 26px;
+	margin-left: 16px;
+	margin-right: 16px;
+}
+.girl-picture{
+	width: 253px;
+	height: 253px;
+	margin-top: 50px;
+	margin-left: 61px;
+	margin-right: 61px;
+
+}
+.girl-picture-tablet{
+	display: none;
+}
+
+/*other  section*/
+.box{
+	width: 343px;
+	height: 120px;
+	text-align: center;
+	margin-left: 11px;
+	padding-top: 24px;
+
+    
+}
+/*icon divs*/
+.mother-icon{
+	background-color: #F0F1FF;
+	max-width: 100%;
+}
+.icon-div{
+	margin-top: 40px;
+	background-color: #ffffff;
+	width: 343px;
+	height: 259px;
+	margin-left: 16px;
+}
+.icon{
+	margin-left: 44px;
+	margin-top: 16px;
+}
+.icon-header{
+	margin-top: 24px;
+	margin-left: 28px;
+}
+.icon-text{
+	margin-top: 16px;
+	margin-left: 28px;
+}
+.icon-get-start{
+	margin-top: 24px;
+	margin-left: 28px;
+}
+.footer-box{
+	width: 375px;
+	height: 120px;
+	max-width: 100%;
+}
+.footer-box{
+	margin-top: 86px;
+
+}
+.skilled-footer{
+	margin-right: 100px;
+	margin-top: 43px;
+}
+.footer-get-start{
+	margin-top: 43px;
+}
+
+
+	
+	   
