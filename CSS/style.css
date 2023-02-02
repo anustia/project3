@@ -52,9 +52,13 @@
 	font-size: 18px;
 	line-height: 26px;
 	font-family: 'Plus Jakarta Sans', sans-serif;
+	max-width: 100%;
+	opacity: 1;
+  transition: 0.3s;
 	
 
 }
+.header-button:hover {opacity: 0.3}
 .box-text-size{
 	font-size: 24px;
 	line-height:32px ;
@@ -80,8 +84,11 @@
 	padding: 10px;
 	max-width: 100%;
 	margin-top: 11px;
+	opacity: 1;
+  transition: 0.3s;
 	
 }
+.header-button:hover {opacity: 0.3}
 .skilled{
 	margin-left: 16px;
 	margin-right: 100px;
@@ -94,7 +101,7 @@
 	margin-top:45px ;
 	margin-left: 16px;
 	margin-right: 16px;
-	max-width: 100%;
+	
 	}
 .section-text{
 	margin-top: 26px;
@@ -127,6 +134,11 @@
 .mother-icon{
 	background-color: #F0F1FF;
 	max-width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: auto;
+	margin-left: auto;
+	align-items: center;
 }
 .icon-div{
 	margin-top: 40px;
@@ -158,6 +170,8 @@
 }
 .footer-box{
 	margin-top: 86px;
+	width: 1440px;
+	max-width: 100%;
 
 }
 .skilled-footer{
@@ -166,6 +180,56 @@
 }
 .footer-get-start{
 	margin-top: 43px;
+}
+/*tablet 768px*/
+@media screen and (min-width: 768px){
+	/*header*/
+	.header-button{
+		margin-top: 24px;
+		margin-right: 40px;
+	}
+	.skilled{
+		margin-left: 39px;
+		margin-top: 31px;
+		margin-right: 460px;
+	}
+	.section{
+		display: flex;
+		align-items: center;
+	}
+	.section-header1{
+		width: 326px;
+	}
+	.section-text{
+		width: 398px;
+	}
+	.girl-picture{
+		display: none;
+	}
+	.girl-picture-tablet{
+		display: inline-block;
+		width: 400px;
+		height: 500px;
+	}
+	.box{
+	  margin-top: 40px;
+	  width: 343px;
+	  height: 259px;
+	  margin-left: 16px;
+	}
+	.left-box{
+		margin-left: 40px;
+        margin-right: 10px;
+	}
+	.mother-icon{
+		margin-top: 99px;
+	}
+	/*footer*/
+	.skilled-footer{
+		margin-right: 460px;
+		margin-left: 40px;
+	}
+
 }
 
 
